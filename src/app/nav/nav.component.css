@@ -1,0 +1,30 @@
+.navbar-inner {
+  background: transparent;
+  padding: 10px;
+  margin-left: 20vh;
+}
+
+.navbar-inner .nav-button {
+  position: absolute;
+  margin-right: 20vh;
+  right: 0;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.navbar-inner .nav-button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+  .navbar-inner {
+    margin-left: 0;
+  }
+
+  .navbar-inner .nav-button {
+    margin-right: 5vh;
+  }
+}

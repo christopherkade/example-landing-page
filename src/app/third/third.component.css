@@ -1,0 +1,10 @@
+.third {
+  width: 100%;
+  background: lightgray;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.third .catch-phrase {
+  font-weight: normal;
+}
