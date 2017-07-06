@@ -1,0 +1,39 @@
+.feedback {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.feedback-title {
+  border-left: 1px solid black;
+  padding-left: 2%;
+}
+
+.feedback-row {
+  margin-top: 100px;
+}
+
+.card {
+  height: 18rem;
+  margin-bottom: 30px;
+}
+
+.card-wrapper {
+  text-align: center;
+}
+
+.card-img {
+  border-radius: 70px;
+  margin-bottom: 16px;
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
+}
+
+.card h1 {
+  font-size: 20px;
+}
+
+.card .card-text {
+  padding-top: 15px;
+}

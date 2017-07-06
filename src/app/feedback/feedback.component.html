@@ -1,0 +1,23 @@
+<div class="feedback">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="feedback-title">What people are saying about this landing page</h1>
+      </div>
+    </div>
+
+    <div class="row feedback-row">
+      <div class="col-md-3" *ngFor="let feedback of feedbacks">
+        <div class="card">
+          <div class="card-wrapper">
+            <img class="card-img" src="{{feedback.img}}">
+            <div class="card-block">
+              <h1 class="card-title text-muted">{{feedback.login}}</h1>
+              <p class="card-text">{{feedback.value}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

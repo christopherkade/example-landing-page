@@ -1,0 +1,29 @@
+.third {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.third .catch-phrase {
+  font-weight: normal;
+}
+
+.intro {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.intro p {
+  border-left: 1px solid black;
+  padding-left: 5%;
+}
+
+.vertical-center {
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+  padding-top: 12vh;
+}
+
+
+

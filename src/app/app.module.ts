@@ -5,19 +5,23 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
-import { SecondComponent } from './second/second.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
-import { ThirdComponent } from './third/third.component';
+import { ArgumentComponent } from './argument/argument.component';
+import { TeamComponent } from './team/team.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    SecondComponent,
+    NewsletterComponent,
     FooterComponent,
     NavComponent,
-    ThirdComponent
+    ArgumentComponent,
+    TeamComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

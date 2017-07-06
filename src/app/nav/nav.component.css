@@ -11,12 +11,38 @@
   background: transparent;
   border: 1px solid white;
   color: white;
+  margin-top: 15px;
 }
 
 .navbar-inner .nav-button:hover {
   background: white;
   color: black;
   cursor: pointer;
+}
+
+.navbar-inner .logo {
+  width: 80px;
+  height: 60px;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.navbar-inner .logo:hover {
+  width: 90px;
+  height: 70px;
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.navbar-inner .navbar-brand {
+  vertical-align: middle;
+}
+
+.brand-name {
+  line-height: 55px;
+}
+
+.brand-name-wrapper {
+  vertical-align: middle;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px){
@@ -26,5 +52,11 @@
 
   .navbar-inner .nav-button {
     margin-right: 5vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .brand-name {
+    display: none;
   }
 }
