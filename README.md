@@ -2,6 +2,10 @@
 
 A classic landing page used to improve on my front-end skills.
 
-## Development server
+## View it
 
-Run `ng serve` and navigate to http://localhost:4200/.
+1) Run `npm install` in order to install all the necessary packages.
+
+2) Run `ng serve` and navigate to http://localhost:4200/.
+
+Voilà !
