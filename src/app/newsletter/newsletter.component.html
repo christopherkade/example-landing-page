@@ -2,11 +2,12 @@
   <div class="container">
     <div class="row letter-row">
       <div class="col-md-12">
-        <h1>Receive our fake news letter</h1>
+        <h1>Receive our <span [@fakeState]="fakeState" (@fakeState.done)="fakeState ='inactive'">fake</span> newsletter</h1>
         <div class="form-wrapper">
           <form>
-            <input class="form-control email-input" type="email" maxlength="256" name="email" placeholder="Enter your email address" required>
-            <input class="btn ok-button" type="submit" value="Yes please !">
+            <input class="form-control email-input" name="email" type="email" minlength="4" maxlength="256" placeholder="Enter your email address"
+                   [(ngModel)]="email" required>
+            <input class="btn ok-button" type="submit" value="Yes please !" (click)="triggerAnimation()">
           </form>
         </div>
       </div>

@@ -2,7 +2,6 @@
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: lightgray;
   display: block;
   text-align: center;
 }
@@ -11,6 +10,10 @@
   font-weight: normal;
   font-size: 28px;
   padding-bottom: 15px;
+}
+
+span {
+  display: inline-block;
 }
 
 .second .email-input {
@@ -33,4 +36,14 @@
   background: black;
   color: white;
   cursor: pointer;
+}
+
+.error-email {
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 380px) {
+  .second .email-input {
+    margin-bottom: 20px;
+  }
 }
