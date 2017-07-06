@@ -39,8 +39,8 @@ export class FeedbackComponent {
       img: 'http://via.placeholder.com/70x70'
     },
     {
-      login: '@marco',
-      value: '"What do you mean, what do I think about this page?"',
+      login: '@duncanmcnoobmara',
+      value: '"Absolutely codetastic"',
       img: 'http://via.placeholder.com/70x70'
     },
     {

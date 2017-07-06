@@ -11,8 +11,13 @@
   background-image: url(../../assets/img/blurred2.jpg);
   display: block;
 }
+
 .catch-phrase {
   padding-top: 40vh;
+}
+
+.landing p {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {

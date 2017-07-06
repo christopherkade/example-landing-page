@@ -11,6 +11,8 @@ import { NavComponent } from './nav/nav.component';
 import { ArgumentComponent } from './argument/argument.component';
 import { TeamComponent } from './team/team.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { Argument2Component } from './argument2/argument2.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { FeedbackComponent } from './feedback/feedback.component';
     NavComponent,
     ArgumentComponent,
     TeamComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    Argument2Component
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

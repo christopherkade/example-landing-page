@@ -1,25 +1,24 @@
-.argument {
+.argument2 {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: lightgray;
 }
 
 .intro {
   display: block;
   margin-bottom: 60px;
+  text-align: right;
 }
 
 .intro p {
-  border-left: 1px solid black;
-  padding-left: 5%;
+  border-right: 1px solid black;
+  padding-right: 5%;
 }
 
 .vertical-center {
   vertical-align: middle;
   display: inline-block;
   float: none;
-  padding-top: 12vh;
+  padding-top: 5vh;
 }
-
-
-
