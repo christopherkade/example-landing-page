@@ -5,3 +5,13 @@
   padding-bottom: 40px;
   padding-top: 40px;
 }
+
+.logo {
+  color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.logo-block {
+  margin-top: 10px;
+}

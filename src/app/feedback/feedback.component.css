@@ -36,3 +36,15 @@
 .card .card-text {
   padding-top: 15px;
 }
+
+@media screen and (max-width: 990px) {
+  .card {
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .card {
+    height: 18rem;
+  }
+}

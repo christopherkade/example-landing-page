@@ -25,10 +25,6 @@
   padding-top: 120px;
 }
 
-.text-second {
-  padding-top: 180px;
-}
-
 .text-l {
   text-align: right;
 }
@@ -44,23 +40,23 @@
 }
 
 .img-devices {
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 250px;
 }
 
 @media screen and (max-width: 770px) {
-  .text-l {
+
+  .hiw-one, .hiw-two, .hiw-three {
     text-align: center;
   }
 
-  .text-r {
+  .text-l, .text-r {
     text-align: center;
   }
 
   .hiw-img {
     width: 300px;
     height: 300px;
-    text-align: center;
   }
 
   .hiw-text {
@@ -71,10 +67,22 @@
   .text-second {
     padding-top: 0;
   }
+
+  .img-devices {
+    width: 400px;
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 990px) {
   .text-r {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .img-devices {
+    width: 350px;
+    height: 200px;
   }
 }
