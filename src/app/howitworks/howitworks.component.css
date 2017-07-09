@@ -15,7 +15,9 @@
 
 /* Text */
 .catch-phrase {
-  text-align: center;
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 2%;
 }
 
 .hiw-text {
