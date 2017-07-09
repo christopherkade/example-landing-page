@@ -35,7 +35,7 @@ export class FeedbackComponent {
     },
     {
       login: '@louie',
-      value: '"I like it, it\'s elegant, simple and straight to the point."',
+      value: '"I like it, it\'s elegant, simple and straightforward."',
       img: '../assets/img/profile.png'
     },
     {

@@ -1,0 +1,78 @@
+.howitworks {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Rows */
+.hiw-one {
+  margin-top: 40px;
+}
+
+.hiw-two {
+  text-align: right;
+  margin-top: 30px;
+}
+
+/* Text */
+.catch-phrase {
+  text-align: center;
+}
+
+.hiw-text {
+  font-size: 30px;
+  padding-top: 120px;
+}
+
+.text-second {
+  padding-top: 180px;
+}
+
+.text-l {
+  text-align: right;
+}
+
+.text-r {
+  text-align: left;
+}
+
+/* Image */
+.hiw-img {
+  width: 300px;
+  height: 300px;
+}
+
+.img-devices {
+  width: 500px;
+  height: 400px;
+}
+
+@media screen and (max-width: 770px) {
+  .text-l {
+    text-align: center;
+  }
+
+  .text-r {
+    text-align: center;
+  }
+
+  .hiw-img {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .hiw-text {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  .text-second {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .text-r {
+    text-align: center;
+  }
+}
