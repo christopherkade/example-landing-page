@@ -11,42 +11,42 @@ export class FeedbackComponent {
     {
       login: '@notfakemark',
       value: '"It\'s ok."',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@kristobal',
       value: '"This landing page truly is a marvel of human innovation."',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@laurentk',
       value: '"I mean, it\'s your usual landing page."',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@jean',
       value: '"Well..."',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@jonathanmiers',
       value: '"Please don\'t use my tweets"',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@louie',
       value: '"I like it, it\'s elegant, simple and straight to the point."',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@duncanmcnoobmara',
       value: '"Absolutely codetastic"',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     },
     {
       login: '@cenarius',
       value: '"cool beans"',
-      img: 'http://via.placeholder.com/70x70'
+      img: '../assets/img/profile.png'
     }
   ];
 
