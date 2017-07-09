@@ -14,10 +14,20 @@
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 <app-root>Loading...</app-root>
+
+<script>
+  AOS.init({
+    offset: 350,
+    disable: 'mobile'
+  });
+</script>
 </body>
 </html>
